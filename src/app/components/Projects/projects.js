@@ -3,7 +3,7 @@
 
 const Projects = () => {
     return (
-      <section id="projects" className="py-20 bg-white">
+      <section id="projects" className="py-20 bg-gray-800">
         <h2 className="text-4xl font-bold text-center">Projects</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Add your project cards here */}
