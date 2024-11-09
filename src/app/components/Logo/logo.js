@@ -17,14 +17,13 @@ const Logo = () => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % titles.length);
     }, 2000);
-
     return () => clearInterval(interval);
-  }, []);
+  },);
   return (
     <section className="px-8 py-10 text-center bg-gray-800 mx-auto items-center font-['Roboto']">
       <div className=" leading-normal">
         <h5 className="text-6xl w-full">
-          Hello, I'm{" "}
+          Hello, I am{" "}
           <span className="text-6xl font-bold ">
             Laura Nyaaga
           </span>

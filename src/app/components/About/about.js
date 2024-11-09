@@ -93,7 +93,7 @@ const About = () => {
             to create practical solutions that people can actually use and
             benefit from. <br></br>
             So far, I have worked on projects that reflect this goal, like an
-            app for parents to monitor milestones in their children's growth and
+            app for parents to monitor milestones in their "children's" growth and
             get helpful resources. I have also explored ways to use tech for
             environmental conservation and assistive tools for educators. With
             each project, I have focused on building things that are easy to
