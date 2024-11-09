@@ -1,5 +1,4 @@
-
-"use client"
+"use client";
 import React, { useState } from "react";
 import { MapPin, Mail, Phone } from "lucide-react";
 import emailjs from "@emailjs/browser";
@@ -57,7 +56,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-gray-800">
-      <h1 className="text-4xl font-bold text-center">Contact</h1>
+      <h1 className="text-4xl font-bold text-center py-10">Contact</h1>
       <div className="flex justify-evenly">
         <div className="flex flex-col space-y-4 p-6 max-w-sm w-96">
           <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-300/50 animate-gradient-xy">
@@ -105,8 +104,8 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="space-y-4 ">
-          <h2>Reach Out</h2>
+        <div className="">
+          <h2 className="text-2xl font-bold">Reach Out!</h2>
           <form onSubmit={handleSubmit} className="mt-10 max-w-lg">
             <input
               type="text"
@@ -115,7 +114,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Your Name"
               required
-              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 space-y-4  border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
             />
             <input
               type="email"
@@ -124,7 +123,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Your Email"
               required
-              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 space-y-4  border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
             />
             <input
               type="text"
@@ -133,7 +132,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Subject"
               required
-              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 space-y-4  border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
             />
             <textarea
               name="message"
@@ -141,14 +140,14 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Your Message"
               required
-              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+              className="w-full p-3 border rounded mb-4 text-white bg-gray-800 space-y-4  border-yellow-600 shadow-[0_0_10px_rgba(255,215,0,0.6)]"
               rows="4"
             ></textarea>
 
             <button
               type="submit"
               disabled={status.sending}
-              className="w-full p-3 bg-yellow-600 text-white rounded hover:bg-yellow-700 transition-colors duration-300 disabled:opacity-50"
+              className="w-full p-3 bg-yellow-600 text-white rounded hover:bg-yellow-700 space-y-4  transition-colors duration-300 disabled:opacity-50"
             >
               {status.sending ? "Sending..." : "Send Message"}
             </button>
@@ -167,6 +166,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+
     </section>
   );
 };

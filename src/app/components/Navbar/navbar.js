@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -20,10 +21,10 @@ const Navbar = () => {
           <Link href="#about">About</Link>
         </li>
         <li className="hover:text-yellow-300 active:text-yellow-300">
-          <Link href="#projects">Projects</Link>
+        <Link href="#skills">Skills</Link>
         </li>
         <li className="hover:text-yellow-300 active:text-yellow-300">
-          <Link href="#achievements">Skills</Link>
+          <Link href="#projects">Projects</Link>
         </li>
         <li className="hover:text-yellow-300 active:text-yellow-300">
           <Link href="#contact">Contact</Link>
