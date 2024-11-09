@@ -12,13 +12,16 @@ const Logo = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const titlesLength = titles.length;
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % titles.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % titlesLength);
     }, 2000);
     return () => clearInterval(interval);
-  },);
+  }, [titlesLength]
+  );
+
   return (
     <section className="px-8 py-10 text-center bg-gray-800 mx-auto items-center font-['Roboto']">
       <div className=" leading-normal">

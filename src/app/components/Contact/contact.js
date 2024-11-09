@@ -45,10 +45,10 @@ const Contact = () => {
         setStatus({ sending: false, error: null, success: true });
         setFormData({ name: "", email: "", subject: "", message: "" });
       }
-    } catch{
+    } catch (error) {
       setStatus({
         sending: false,
-        error: "Failed to send message. Please try again.",
+        error: error.message || "Failed to send message. Please try again.",
         success: false,
       });
     }
