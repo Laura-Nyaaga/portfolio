@@ -2,11 +2,12 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-800 font-['Roboto'] ">
-<h2 className="text-4xl font-bold text-center typewriter">Projects</h2>
+      <h2 className="py-4 text-4xl font-bold text-center typewriter">
+        Projects
+      </h2>
 
-      <div>
+      <div className="py-8">
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12">
-          {/* Totosteps */}
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
             <div className="mx-auto flex justify-center p-4">
               <Image
@@ -16,14 +17,16 @@ const Projects = () => {
                 alt="dmilestones"
               />
             </div>
-            <h3 className="text-3xl text-center text-yellow-500 font-bold p-4">Totosteps</h3>
+            <h3 className="text-3xl text-center text-yellow-500 font-bold p-4">
+              Totosteps
+            </h3>
             <p className="text-left text-xl">
-              A mobile that is designed to help parents track their children
+              A mobile application that is designed to help parents track their children
               developmental milestones, check for autism risk and receive
               resources tailored to aid early developmental support in children
               born in Kenya.
             </p>
-          
+
             <div className="flex justify-center pt-4 space-x-4">
               <a
                 href="https://github.com/Laura-Nyaaga/Ciphers-Mobile-TotoSteps.git"
@@ -56,7 +59,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Apex */}
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
             <div className="mx-auto flex justify-center p-4">
               <Image
@@ -66,7 +68,9 @@ const Projects = () => {
                 alt="Apex"
               />
             </div>
-            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">Apex</h3>
+            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
+              Apex
+            </h3>
             <p className="text-left text-xl">
               A single page react website that is designed to inform users of
               the existence of a platform designed to assist teachers of the
@@ -105,7 +109,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Foodhouse */}
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
             <div className="mx-auto flex justify-center p-4">
               <Image
@@ -160,11 +163,10 @@ const Projects = () => {
         </div>
       </div>
 
-      <div>
-        {/* BMI Calculator */}
+      <div className="py-6">
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-12">
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
-          <div className="mx-auto flex justify-center p-4">
+            <div className="mx-auto flex justify-center p-4">
               <Image
                 src="/image/bmi.png"
                 width={200}
@@ -172,7 +174,9 @@ const Projects = () => {
                 alt="BMI Calculator"
               />
             </div>
-            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">BMI Calculator</h3>
+            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
+              BMI Calculator
+            </h3>
             <p className="text-xl text-left">
               A responsive website that is designed for the users to allowing
               them to calculate their Body Mass Index by keying in their weight
@@ -211,9 +215,8 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* School */}
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
-          <div className="mx-auto flex justify-center p-4">
+            <div className="mx-auto flex justify-center p-4">
               <Image
                 src="/image/students.png"
                 width={200}
@@ -221,7 +224,9 @@ const Projects = () => {
                 alt="Books"
               />
             </div>
-            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">School Project</h3>
+            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
+              School Project
+            </h3>
             <p className="text-xl text-left">
               A django backend web application school project that allows
               students to register, view courses using the generated timetable
@@ -260,9 +265,8 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Recipe */}
           <div className="p-4 border-yellow-600 rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.6)] cursor-pointer transition-transform transform hover:scale-95 hover:bg-blue-900 duration-300">
-          <div className="mx-auto flex justify-center p-4">
+            <div className="mx-auto flex justify-center p-4">
               <Image
                 src="/image/recipes.jpg"
                 width={160}
@@ -271,7 +275,9 @@ const Projects = () => {
                 className="rounded-3xl"
               />
             </div>
-            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">Recipe</h3>
+            <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
+              Recipe
+            </h3>
             <p className="text-xl text-left">
               An intuitive web design that uses ADAMAN API to enable users to
               calculate the contents of ingriedients in their food components.
@@ -314,5 +320,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
