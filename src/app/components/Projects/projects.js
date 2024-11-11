@@ -79,7 +79,7 @@ const Projects = () => {
             </p>
             <div className="flex justify-center pt-4 space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Laura-Nyaaga/Apex-Informational-PROJECT.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition transform"
@@ -93,7 +93,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                href="https://vercel.com"
+                href=" "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition transform"
@@ -128,7 +128,6 @@ const Projects = () => {
               location. Users can order food from the comfort of their home with
               prior knowledge of the restaurant.
             </p>
-            {/* Icon Container */}
             <div className="flex justify-center pt-4 space-x-4">
               <a
                 href="https://github.com/Laura-Nyaaga/foodhouse-restaurant-next-js.git"
@@ -248,8 +247,8 @@ const Projects = () => {
                   className="hover:bg-yellow-600 transition-colors rounded-full"
                 />
               </a>
-              <a
-                href="https://vercel.com"
+              {/* <a
+                href=" "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition transform"
@@ -261,7 +260,7 @@ const Projects = () => {
                   alt="Vercel"
                   className="hover:bg-yellow-600 transition-colors rounded-full"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
 
