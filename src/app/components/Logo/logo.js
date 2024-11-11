@@ -22,7 +22,10 @@ const Logo = () => {
   }, [titlesLength]);
 
   return (
-    <section id="logo" className="px-4 sm:px-6 lg:px-8 pt-6 sm:py-8 lg:py-10 text-center bg-gray-800 mx-auto items-center font-['Roboto']">
+    <section
+      id="logo"
+      className="px-4 sm:px-6 lg:px-8 pt-6 sm:py-8 lg:py-10 text-center bg-gray-800 mx-auto items-center font-['Roboto']"
+    >
       <div className="leading-normal">
         <h5 className="text-3xl sm:text-4xl lg:text-6xl w-full">
           Hello, I am{" "}
@@ -77,10 +80,11 @@ const Logo = () => {
 
             <div className="text-center md:text-left pt-2 sm:pt-6 lg:pt-8">
               <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed sm:leading-loose text-left w-full">
-                A passionate software developer who is dedicated to developing
-                tech solutions that address real-world challenges by integrating
-                technology with intuitive designs that are user-centric, aiming
-                at enhancing a better user experience.
+                I am a software developer driven by a purpose: to build
+                accessible, data-driven applications that address real-world
+                challenges. With a background in mobile and web development, I
+                am skilled in crafting secure, user-centric solutions in
+                impactful fields.
               </p>
             </div>
 
