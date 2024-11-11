@@ -78,10 +78,10 @@ const About = () => {
             />
           </div>
           <a
-            href="https://www.loom.com/share/bab231abe68e4c4fbca8c90d8dbcd801?sid=7a893566-2b8e-4d39-a07c-e598d2fad658"
+            href="https://www.loom.com/share/4e9f2927c7414f70a00624bc81271919?sid=26aba67e-183e-4bab-889e-5ec965316b6b"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 sm:px-5 md:px-6 py-2 bg-yellow-600 text-white text-base sm:text-lg rounded-lg font-semibold text-center transition duration-300 hover:bg-amber-500 w-full sm:w-auto"
+            className="px-4 sm:px-5 md:px-6 py-2 bg-yellow-600 text-white text-base sm:text-lg rounded-lg font-semibold text-center transition duration-300 hover:bg-amber-400 w-full sm:w-auto"
           >
             View Video
           </a>
