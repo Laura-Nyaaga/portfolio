@@ -60,7 +60,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-10 sm:py-16 lg:py-20 bg-gray-800 px-4 sm:px-6 lg:px-8">
+        <section id="contact" className="py-10 sm:py-16 lg:py-20 bg-gray-800 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl sm:text-4xl font-bold text-center py-6 sm:py-8 lg:py-10 text-white">
         Contact
       </h1>
@@ -101,7 +101,7 @@ const Contact = () => {
 
           <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-300/50 animate-gradient-xy">
             <div
-              className="bg-gray-700 hover:bg-gray-500 transform hover:scale-105 
+              className="bg-gray-800 hover:bg-gray-700 transform hover:scale-105 
               transition-all duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer flex flex-col items-center justify-center
               relative before:absolute before:inset-0 before:rounded-lg
               before:animate-pulse before:bg-yellow-200/20 before:blur-sm"
