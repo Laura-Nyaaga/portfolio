@@ -27,9 +27,9 @@ const Logo = () => {
       className="px-4 sm:px-6 lg:px-8 pt-6 sm:py-8 lg:py-10 text-center bg-gray-800 mx-auto items-center font-['Roboto']"
     >
       <div className="leading-normal">
-        <h5 className="text-3xl sm:text-4xl lg:text-6xl w-full">
+        <h5 className="text-white text-3xl sm:text-4xl lg:text-6xl w-full">
           Hello, I am{" "}
-          <span className="text-3xl sm:text-4xl lg:text-6xl font-bold">
+          <span className="text-white text-3xl sm:text-4xl lg:text-6xl font-bold">
             Laura Nyaaga
           </span>
         </h5>
