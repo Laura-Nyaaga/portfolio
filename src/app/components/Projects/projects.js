@@ -2,7 +2,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-800 font-['Roboto'] ">
-      <h2 className="py-4 text-4xl font-bold text-center typewriter">
+      <h2 className="py-4 text-4xl text-white font-bold text-center typewriter">
         Projects
       </h2>
 
@@ -20,7 +20,7 @@ const Projects = () => {
             <h3 className="text-3xl text-center text-yellow-500 font-bold p-4">
               Totosteps
             </h3>
-            <p className="text-left text-xl">
+            <p className="text-left text-xl text-white">
               A mobile application that is designed to help parents track their children
               developmental milestones, check for autism risk and receive
               resources tailored to aid early developmental support in children
@@ -71,7 +71,7 @@ const Projects = () => {
             <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
               Apex
             </h3>
-            <p className="text-left text-xl">
+            <p className="text-left text-white text-xl">
               A single page react website that is designed to inform users of
               the existence of a platform designed to assist teachers of the
               visually impaired on how to utilize various assistive technology
@@ -122,8 +122,8 @@ const Projects = () => {
             <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
               FoodHouse Restaurant
             </h3>
-            <p className="text-xl text-left">
-              A static responsive website with intuitive design for a restaurant
+            <p className="text-xl text-white text-left">
+              A static responsive website with an intuitive design for a restaurant
               showcasing various types of dishes it offers, their pricing, and
               location. Users can order food from the comfort of their home with
               prior knowledge of the restaurant.
@@ -176,10 +176,10 @@ const Projects = () => {
             <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
               BMI Calculator
             </h3>
-            <p className="text-xl text-left">
-              A responsive website that is designed for the users to allowing
+            <p className="text-xl text-white text-left">
+              A responsive website that is designed for the users to allow
               them to calculate their Body Mass Index by keying in their weight
-              and height and in turn gets a response ogf their BMI and the
+              and height and in turn get a response to their BMI and the
               category in which they belong.
             </p>
             <div className="flex justify-center pt-4 space-x-4">
@@ -226,11 +226,11 @@ const Projects = () => {
             <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
               School Project
             </h3>
-            <p className="text-xl text-left">
-              A django backend web application school project that allows
-              students to register, view courses using the generated timetable
+            <p className="text-xl text-white text-left">
+              A Django backend web application school project that allows
+              students to register, and view courses using the generated timetable
               and know the course instructor. It also has a database
-              configuration for storing student,teachers and course data.
+              configuration for storing student, teacher, and course data.
             </p>
             <div className="flex justify-center pt-4 space-x-4">
               <a
@@ -277,9 +277,9 @@ const Projects = () => {
             <h3 className="p-4 text-3xl text-center text-yellow-500 font-bold">
               Recipe
             </h3>
-            <p className="text-xl text-left">
+            <p className="text-xl text-white text-left">
               An intuitive web design that uses ADAMAN API to enable users to
-              calculate the contents of ingriedients in their food components.
+              calculate the contents of ingredients in their food components.
             </p>
             <div className="flex justify-center pt-4 space-x-4">
               <a
