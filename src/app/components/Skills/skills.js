@@ -54,7 +54,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="pt-20 mb-24 bg-gray-800">
+    <section id="skills" className="pt-20 mb-24 bg-gray-800 font-['Roboto']">
       <style jsx global>{`
         @keyframes float {
           0%,
@@ -72,7 +72,7 @@ const Skills = () => {
       `}</style>
 
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-white mb-16">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white relative z-10 pt-6 sm:pt-8 md:pt-10 text-white mb-16 text-center">
           Skills
         </h2>
         <div className="flex flex-wrap justify-center gap-20 py-6">

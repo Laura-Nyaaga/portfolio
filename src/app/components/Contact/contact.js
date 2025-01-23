@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin, Mail, Phone, ExternalLink } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
@@ -60,34 +60,20 @@ const Contact = () => {
   };
 
   return (
-        <section id="contact" className="py-10 sm:py-16 lg:py-20 bg-gray-800 px-4 sm:px-6 lg:px-8">
-      <h1 className="text-3xl sm:text-4xl font-bold text-center py-6 sm:py-8 lg:py-10 text-white">
+        <section id="contact" className="py-10 sm:py-16 lg:py-20 bg-gray-800 px-4 sm:px-6 lg:px-8 font-['Roboto']">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white relative z-10 pt-6 sm:pt-8 md:pt-10 text-center">
         Contact
       </h1>
 
       <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly gap-8 lg:gap-12 max-w-7xl mx-auto py-8 ">
         <div className="flex flex-col space-y-4 p-4 sm:p-6 w-full max-w-sm mx-auto">
-          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-300/50 animate-gradient-xy">
+          <a href="mailto:nyaagaaluoch@gmail.com">
+          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-200/50 animate-gradient-xy">
             <div
-              className="bg-gray-700 hover:bg-gray-500 transform hover:scale-105 
+              className="bg-gray-800 hover:bg-gray-700 transform hover:scale-105 
               transition-all duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer flex flex-col items-center justify-center
               relative before:absolute before:inset-0 before:rounded-lg
-              before:animate-pulse before:bg-yellow-200/20 before:blur-sm"
-            >
-              <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-600 mb-2" />
-              <h2 className="text-base sm:text-lg font-semibold text-white mb-1">
-                Location
-              </h2>
-              <p className="text-sm sm:text-base text-white">Nairobi, Kenya</p>
-            </div>
-          </div>
-
-          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-300/50 animate-gradient-xy">
-            <div
-              className="bg-gray-700 hover:bg-gray-500 transform hover:scale-105 
-              transition-all duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer flex flex-col items-center justify-center
-              relative before:absolute before:inset-0 before:rounded-lg
-              before:animate-pulse before:bg-yellow-200/20 before:blur-sm"
+              before:animate-pulse before:bg-yellow-200/10 before:blur-sm"
             >
               <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-600 mb-2" />
               <h2 className="text-base sm:text-lg font-semibold text-white mb-1">
@@ -98,13 +84,15 @@ const Contact = () => {
               </p>
             </div>
           </div>
+          </a>
 
-          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-300/50 animate-gradient-xy">
+          <a href="tel:+254796063321" > 
+          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-200/50 animate-gradient-xy">
             <div
               className="bg-gray-800 hover:bg-gray-700 transform hover:scale-105 
               transition-all duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer flex flex-col items-center justify-center
               relative before:absolute before:inset-0 before:rounded-lg
-              before:animate-pulse before:bg-yellow-200/20 before:blur-sm"
+              before:animate-pulse before:bg-yellow-200/10 before:blur-sm"
             >
               <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-600 mb-2" />
               <h2 className="text-base sm:text-lg font-semibold text-white mb-1">
@@ -113,6 +101,22 @@ const Contact = () => {
               <p className="text-sm sm:text-base text-white">
                 (+254) 796063321
               </p>
+              
+            </div>
+          </div>
+          </a>
+          <div className="p-[2px] rounded-lg bg-gradient-to-r from-yellow-200/50 via-yellow-100/50 to-yellow-200/50 animate-gradient-xy">
+            <div
+              className="bg-gray-800 hover:bg-gray-700 transform hover:scale-105 
+              transition-all duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer flex flex-col items-center justify-center
+              relative before:absolute before:inset-0 before:rounded-lg
+              before:animate-pulse before:bg-yellow-200/10 before:blur-sm"
+            >
+              <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-yellow-600 mb-2" />
+              <h2 className="text-base sm:text-lg font-semibold text-white mb-1">
+                Location
+              </h2>
+              <p className="text-sm sm:text-base text-white">Nairobi, Kenya</p>
             </div>
           </div>
         </div>

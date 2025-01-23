@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative bg-gray-800 text-white z-50 w-full">
+      <nav className="relative bg-gray-800 text-white z-50 w-full top-0 left-0 right-0 bottom-0 overflow:hidden">
         <div className="flex justify-between items-center py-4 sm:py-6 px-4 sm:px-8 lg:px-12">
           <div className="text-2xl font-bold hover:text-yellow-300 active:text-yellow-300">
             <Link href="#logo">
